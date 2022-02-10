@@ -28,7 +28,7 @@ st.sidebar.write('''
 		as well as whether you want the output files to be CSV or Excel files
 			''')
 
-rows = st.sidebar.number_input("Enter number of rows per file: (e.x. 10000) and hit enter ", min_value=1, value=10000)		
+rows = st.sidebar.number_input("Enter number of rows per file: (e.x. 10000) and hit enter ", min_value=1, value=10000, step=100)		
 menu = ["CSV","XLSX"]
 choice = st.sidebar.selectbox("Select the output format of your files",menu)
 
