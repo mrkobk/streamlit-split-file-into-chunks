@@ -7,6 +7,7 @@ import streamlit as st
 from pandas import read_excel, read_csv
 import csv
 import xlrd
+import openpyxl
 from zipfile import ZipFile
 from io import BytesIO
 import base64
